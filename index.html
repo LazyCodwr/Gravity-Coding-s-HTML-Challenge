@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timetable</title>
+</head>
+<body>
+
+    <h1>This is HTML Challenge :</h1>
+    <h2>HTML (HyperText Markup Language)</h2>
+    <h3>It is standard language used to create and design web pages on internet.</h3>
+
+    <ol start="1">
+        <li><strong>HTMl is an ?</strong></li>
+            <ol type="i">
+                <li>Markup Language</li>
+                <li>Programming Language</li>
+                <li>None of these</li>
+                <li type="none"><strong>Ans : Markup Language</strong></li>
+            </ol>
+            
+    </ol>
+
+    <ol start="2">
+        <li><strong>CSS is used for ?</strong></li>
+        <ol type="i">
+            <li>Styling</li>
+            <li>Scripting</li>
+            <li>None of these</li>
+            <li type="none"><strong>Ans : Styling</strong></li>
+        </ol>
+            
+    </ol>
+
+    <table border="1" cellpadding="10" cellspacing="0">
+        <tr>
+            <th colspan="6">Time Table</th>
+        </tr>
+        <tr>
+            <th>Day/Period</th>
+            <th>I</th>
+            <th>II</th>
+            <td rowspan="6">LUNCH</td>
+            <th>III</th>
+            <th>IV</th>
+        </tr>
+        <tr>
+            <td>Monday</td>
+            <td>English</td>
+            <td>Math</td>
+            <td>EVS</td>
+            <td>LAB</td>
+        </tr>
+        <tr>
+            <td>Tuesday</td>
+            <td>English</td>
+            <td>Math</td>
+            <td>EVS</td>
+            <td>Hindi</td>
+        </tr>
+        <tr>
+            <td>Wednesday</td>
+            <td colspan="2"><center>LAB</center></td>
+            <td>EVS</td>
+            <td>Hindi</td>
+        </tr> 
+        <tr>
+            <td>Thursday</td>
+            <td>English</td>
+            <td>Math</td>
+            <td>EVS</td>
+            <td>Hindi</td>
+        </tr>
+        <tr>
+            <td>Friday</td>
+            <td colspan="2"><center>SEMINAR</center></td>
+            <td colspan="2"><center>SPORTS</center></td>
+        </tr>
+        <tr>
+            <td colspan="7"> <center>School Timing : 10:00 AM to 4:00 PM</center></td>
+        </tr>
+        <!-- Add more rows as needed -->
+    </table> 
+
+    <h1>Create Form Challenge:</h1>
+    <h2>Please share your personal details here:</h2>
+<table>
+    <tr>
+        <td><form>
+            <fieldset> <!-- Added fieldset to group form elements -->
+                <legend><h2>Personal Information</h2></legend> <!-- Added legend for the fieldset -->
+                <label for="fname"><strong>First Name:</strong></label> <br>
+                <input type="text" id="fname" name="fname" required><br><br>
+    
+                <label for="lname"><strong>Last Name:</strong></label> <br>
+                <input type="text" id="lname" name="lname" required><br><br>
+    
+                <label for="date"><strong>Birthday:</strong></label> <br>
+                <input type="date" id="date" name="date" required><br><br>
+            </fieldset>
+    
+            <h2>Can you tell us little more?</h2>
+    
+            <fieldset> <!-- Added another fieldset for additional information -->
+                <legend><h2>Further Information</h2></legend> <!-- Added legend for the fieldset -->
+                <label for="color"><strong>Favorite Color:</strong></label>
+                <input type="color" id="color" name="color" required><br><br>
+    
+                <label for="pet"><strong>What's your favorite pet?</strong></label> <br>
+                <input type="text" id="pet" name="pet" required><br> <br>
+    
+                <label><strong>Do you like:</strong></label><br>
+                <input type="radio" id="dog" name="pet" value="Dog" required>
+                <label for="dog">Mounatains</label>
+    
+                <input type="radio" id="cat" name="pet" value="Cat">
+                <label for="cat">Beaches</label>
+    
+            </fieldset> <br> <br>
+    
+            <input type="submit" value="Submit"> <br> <br>
+    
+    
+        </form></td>
+    </tr>
+</table>
+
+
+</body>
+</html>
